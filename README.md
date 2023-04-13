@@ -95,6 +95,9 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+0.1.4
+Optimize e9 and e9pro
+   
 0.1.3
 Optimizing Antminer s17
 
