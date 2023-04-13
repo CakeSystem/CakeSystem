@@ -9,7 +9,7 @@
 <img src="/image/logo.png" alt="Logo" width="170">
 
 [![CakeSystem][CakeSystem.io-badge]][CakeSystem.io]
-[![Downloads][downloads-badge]][releases]
+[![Downloads][Downloads-badge]][releases]
 [![Stargazers][stars-shield]][stars-url]
 
 <a href="https://github.com/CakeSystem/CakeSystem/blob/main/README.md">English</a>｜<a href="https://github.com/CakeSystem/CakeSystem/blob/main/i18n/zh_cn.md">简体中文</a>
