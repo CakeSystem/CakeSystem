@@ -14,23 +14,6 @@
 
 <a href="https://github.com/CakeSystem/CakeSystem/blob/main/README.md">English</a>｜<a href="https://github.com/CakeSystem/CakeSystem/blob/main/i18n/zh_cn.md">简体中文</a>
 
-The powerful and experienced monitoring and recording system can solve the abnormal situation of the farm immediately.
-
-The hash rate statistics at the level of mining pool, and the hash rate of any currency can be seen at a glance
-
-Automatically adjust the working mode and data flow according to the terminal equipment to avoid highly ineffective task sharing
-
-The active defense and filtering system improves the security of the environment and finds hazards in time.
-
-The front-end client has high-performance TCP integration and compression technology. No matter how far the farm is from the mining pool, they can effectively reduce farm delay and prevent all middlemen from attacking.
-
-The commission system compatible with various algorithms can reasonably improve the mine profits.
-
-Built-in algorithm engines can update popular currencies without heating.
-Perfect control logic, even if the service charge is turned on, the mine pool end will not show that the equipment is offline.
-
-Based on the development of Rust, efficient language brings unparalleled performance.
-High-performance, next-generation operation and maintenance experience, which is a professional farm operation and maintenance system-CakeSystem brought by the top R&D team and RUST experts in Silicon Valley
 
 (Partial Preview)
 
@@ -66,9 +49,6 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 
 # Service Agreement
-
-CakeSystem is subject to the supervision of Hong Kong laws. Please note that the legal requirements of various countries/regions may restrict such products and services. Therefore, this product and service as well as some functions may not be available or may be restricted in some jurisdictions or regions or some users. You should understand and comply with the local laws and regulations. If you use this product, the default representative accepts the above license. If the legal problems caused by this product are irrelevant to this product.
-
 
 
 
