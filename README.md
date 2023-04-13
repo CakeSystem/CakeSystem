@@ -106,6 +106,3 @@ Fixed issue where kas was unable to receive tasks
 0.1.0
 Release of internal test version
 ```
-
-# Other issues
-
