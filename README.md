@@ -109,7 +109,3 @@ Release of internal test version
 
 # Other issues
 
-This is a free software, which does not charge any fees. It only takes 0.4% of the computing power of the terminal equipment from the technical point of view as a technical return. Billing capacity may fluctuate up and down due to the logic of the mining pool in different currencies. Generally, the floating range will not exceed+-% 0.3
-
-
-
