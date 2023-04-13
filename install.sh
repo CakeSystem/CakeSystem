@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="0.1.3"
+VERSION="0.1.4"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
 ORIGIN_EXEC="CakeSystem-${VERSION}"
 
@@ -326,7 +326,6 @@ disable_autostart() {
 ISSUE() {
     echo "0.1.0"
     echo "0.1.2"
-	echo "0.1.3"
 }
 
 filterResult() {
