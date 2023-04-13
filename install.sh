@@ -1,13 +1,13 @@
 #!/bin/bash
 
-VERSION="0.1.2"
-DOWNLOAD_HOST="https://github.com/MilkMiner/MilkMiner/raw/main/linux"
-ORIGIN_EXEC="MilkMiner-${VERSION}"
+VERSION="0.1.3"
+DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
+ORIGIN_EXEC="CakeSystem-${VERSION}"
 
 SERVICE_NAME="rustservice"
 
-PATH_RUST="/root/MilkMiner"
-PATH_EXEC="MilkMiner"
+PATH_RUST="/root/CakeSystem"
+PATH_EXEC="CakeSystem"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
 PATH_NOHUP="${PATH_RUST}/nohup.out"
@@ -318,7 +318,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/MilkMiner\/MilkMiner\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/CakeSystem\/CakeSystem\ &/d' /etc/rc.local
     fi
 }
 
@@ -326,6 +326,7 @@ disable_autostart() {
 ISSUE() {
     echo "0.1.0"
     echo "0.1.2"
+	echo "0.1.3"
 }
 
 filterResult() {
@@ -459,7 +460,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="MilkMiner-${1}"
+        ORIGIN_EXEC="CakeSystem-${1}"
     fi
 
     echo $ORIGIN_EXEC
