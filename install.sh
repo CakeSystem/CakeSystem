@@ -2,12 +2,12 @@
 
 VERSION="0.9.9"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
-ORIGIN_EXEC="cakesystem-${VERSION}"
+ORIGIN_EXEC="CakeSystem-${VERSION}"
 
 SERVICE_NAME="cakeservice"
 
-PATH_CAKE="/root/cakesystem"
-PATH_EXEC="cakesystem"
+PATH_CAKE="/root/CakeSystem"
+PATH_EXEC="CakeSystem"
 
 PATH_CONFIG="${PATH_CAKE}/cake-config"
 PATH_NOHUP="${PATH_CAKE}/nohup.out"
@@ -318,7 +318,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/cakesystem\/cakesystem\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/CakeSystem\/CakeSystem\ &/d' /etc/rc.local
     fi
 }
 
@@ -462,7 +462,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="cakesystem-${1}"
+        ORIGIN_EXEC="CakeSystem-${1}"
     fi
 
     echo $ORIGIN_EXEC
