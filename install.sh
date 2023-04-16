@@ -309,6 +309,7 @@ EOF
     fi
 }
 
+
 # 禁用开机启动函数
 disable_autostart() {
     echo "${m_15}"
