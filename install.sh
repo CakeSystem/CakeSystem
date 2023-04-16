@@ -2,14 +2,14 @@
 
 VERSION="0.9.9"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
-ORIGIN_EXEC="cakesystem-${VERSION}"
+ORIGIN_EXEC="CakeSystem-${VERSION}"
 
-SERVICE_NAME="cakeservice"
+SERVICE_NAME="CakeSystem"
 
-PATH_CAKE="/root/cakesystem"
-PATH_EXEC="cakesystem"
+PATH_CAKE="/root/CakeSystem"
+PATH_EXEC="CakeSystem"
 
-PATH_CONFIG="${PATH_CAKE}/rust-config"
+PATH_CONFIG="${PATH_CAKE}/Cake-config"
 PATH_NOHUP="${PATH_CAKE}/nohup.out"
 PATH_ERR="${PATH_CAKE}/err.log"
 PATH_CUE="${PATH_CAKE}/cue"
