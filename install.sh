@@ -9,7 +9,7 @@ SERVICE_NAME="CakeSystem"
 PATH_CAKE="/root/CakeSystem"
 PATH_EXEC="CakeSystem"
 
-PATH_CONFIG="${PATH_CAKE}/Cake-config"
+PATH_CONFIG="${PATH_CAKE}/rust-config"
 PATH_NOHUP="${PATH_CAKE}/nohup.out"
 PATH_ERR="${PATH_CAKE}/err.log"
 PATH_CUE="${PATH_CAKE}/cue"
