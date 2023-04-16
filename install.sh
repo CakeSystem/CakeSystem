@@ -6,13 +6,13 @@ ORIGIN_EXEC="CakeSystem-${VERSION}"
 
 SERVICE_NAME="cakeservice"
 
-PATH_RUST="/root/CakeSystem"
+PATH_CAKE="/root/CakeSystem"
 PATH_EXEC="CakeSystem"
 
-PATH_CONFIG="${PATH_RUST}/rust-config"
-PATH_NOHUP="${PATH_RUST}/nohup.out"
-PATH_ERR="${PATH_RUST}/err.log"
-PATH_CUE="${PATH_RUST}/cue"
+PATH_CONFIG="${PATH_CAKE}/cake-config"
+PATH_NOHUP="${PATH_CAKE}/nohup.out"
+PATH_ERR="${PATH_CAKE}/err.log"
+PATH_CUE="${PATH_CAKE}/cue"
 
 # 语言选择菜单
 clear
@@ -214,9 +214,9 @@ start() {
         echo "${m_5}"
         return
     else
-        # cd $PATH_RUST
+        # cd $PATH_CAKE
 
-        # nohup "${PATH_RUST}/${PATH_EXEC}" 2>$PATH_ERR &
+        # nohup "${PATH_CAKE}/${PATH_EXEC}" 2>$PATH_ERR &
 
         enable_autostart
 
@@ -290,11 +290,11 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=$PATH_RUST/$PATH_EXEC
-WorkingDirectory=$PATH_RUST/
+ExecStart=$PATH_CAKE/$PATH_EXEC
+WorkingDirectory=$PATH_CAKE/
 Restart=always
-StandardOutput=file:$PATH_RUST/nohup.out
-StandardError=file:$PATH_RUST/err.log
+StandardOutput=file:$PATH_CAKE/nohup.out
+StandardError=file:$PATH_CAKE/err.log
 TimeoutStopSec=5
 
 [Install]
@@ -304,11 +304,10 @@ EOF
         sudo systemctl enable $SERVICE_NAME.service
         sudo systemctl start $SERVICE_NAME.service
     else
-        sudo sh -c "echo '${PATH_RUST}/${PATH_EXEC} &' >> /etc/rc.local"
+        sudo sh -c "echo '${PATH_CAKE}/${PATH_EXEC} &' >> /etc/rc.local"
         sudo chmod +x /etc/rc.local
     fi
 }
-
 
 # 禁用开机启动函数
 disable_autostart() {
@@ -496,9 +495,9 @@ installapp() {
 
     echo "${m_29}"
 
-    if [[ ! -d $PATH_RUST ]];then
-        mkdir $PATH_RUST
-        chmod 777 -R $PATH_RUST
+    if [[ ! -d $PATH_CAKE ]];then
+        mkdir $PATH_CAKE
+        chmod 777 -R $PATH_CAKE
     else
         echo $YELLOW "${m_30}"
     fi
@@ -517,11 +516,11 @@ installapp() {
 
     echo "${m_31}"
 
-    wget -P $PATH_RUST "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_RUST}/${PATH_EXEC}" 1>/dev/null
+    wget -P $PATH_CAKE "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_CAKE}/${PATH_EXEC}" 1>/dev/null
 
     filterResult $? "${m_32}"
 
-    chmod 777 -R "${PATH_RUST}/${PATH_EXEC}"
+    chmod 777 -R "${PATH_CAKE}/${PATH_EXEC}"
 
     # enable_autostart
 
@@ -531,7 +530,7 @@ installapp() {
 uninstall() {
     stop
 
-    rm -rf ${PATH_RUST}
+    rm -rf ${PATH_CAKE}
 
     disable_autostart
 
