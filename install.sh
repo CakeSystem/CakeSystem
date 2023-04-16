@@ -1,13 +1,13 @@
 #!/bin/bash
 
-VERSION="0.1.4"
-DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
-ORIGIN_EXEC="CakeSystem-${VERSION}"
+VERSION="0.1.2"
+DOWNLOAD_HOST="https://github.com/MilkMiner/MilkMiner/raw/main/linux"
+ORIGIN_EXEC="MilkMiner-${VERSION}"
 
 SERVICE_NAME="rustservice"
 
-PATH_RUST="/root/CakeSystem"
-PATH_EXEC="CakeSystem"
+PATH_RUST="/root/MilkMiner"
+PATH_EXEC="MilkMiner"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
 PATH_NOHUP="${PATH_RUST}/nohup.out"
@@ -100,7 +100,7 @@ elif [ "$lang_choice" = "2" ]; then
     prompt_clear_log="12. 清理日志文件"
     prompt_web_port="13. 查看当前WEB访问端口"
     prompt_uninstall="14. 卸载"
-    prompt_reset_pwd="15. 重置账号密码"
+    prompt_reset_pwd="15. 重置认账号密码"
     prompt_target_version="16. 安装指定版本"
     prompt_root_no="请使用root用户运行此脚本！"
     prompt_error_command="输入了错误的指令, 请重新输入。"
@@ -318,7 +318,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/CakeSystem\/CakeSystem\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/MilkMiner\/MilkMiner\ &/d' /etc/rc.local
     fi
 }
 
@@ -326,8 +326,6 @@ disable_autostart() {
 ISSUE() {
     echo "0.1.0"
     echo "0.1.2"
-    echo "0.1.3"
-    echo "0.1.4"
 }
 
 filterResult() {
@@ -461,7 +459,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="CakeSystem-${1}"
+        ORIGIN_EXEC="MilkMiner-${1}"
     fi
 
     echo $ORIGIN_EXEC
