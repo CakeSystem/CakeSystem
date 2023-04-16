@@ -97,6 +97,15 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+0.9.9
+Optimized a lot of details
+
+Optimized Yami equipment
+
+Further reducing the probability of ineffectiveness (although already very low)
+
+Optimized memory and CPU usage
+
 0.1.4
 Optimize e9 and e9pro
    
