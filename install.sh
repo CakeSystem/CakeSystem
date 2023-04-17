@@ -1,10 +1,10 @@
 #!/bin/bash
 
-VERSION="0.9.9"
+VERSION="0.9.91"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
 ORIGIN_EXEC="CakeSystem-${VERSION}"
 
-SERVICE_NAME="CakeSystem"
+SERVICE_NAME="Cakeservice"
 
 PATH_CAKE="/root/CakeSystem"
 PATH_EXEC="CakeSystem"
@@ -49,7 +49,7 @@ if [ "$lang_choice" = "1" ]; then
     m_4="Start program"
     m_5="Program is already running, please do not start it again."
     m_6="Program started successfully, WEB access port is"
-    m_7="Default account is qzpm19kkx, default password is xloqslz913."
+    m_7="Default account is qzpm19kkx default password is xloqslz913"
     m_8="If you are using the default password and port, please change the account password and web access port in a timely manner through the web settings."
     m_9="Password reset completed, changed to default account password qzpm19kkx xloqslz913"
     m_10="Terminating process..."
@@ -110,7 +110,7 @@ elif [ "$lang_choice" = "2" ]; then
     m_4="启动程序"
     m_5="程序已经启动，请不要重复启动。"
     m_6="程序启动成功, WEB访问端口"
-    m_7="默认账号 qzpm19kkx, 默认密码 xloqslz913。"
+    m_7="默认账号 qzpm19kkx 默认密码 xloqslz913"
     m_8="如果您是默认密码及默认端口, 请及时在网页设置中修改账号密码及web访问端口。"
     m_9="重置密码完成, 已修改为默认账号密码 qzpm19kkx xloqslz913"
     m_10="终止进程..."
@@ -326,9 +326,8 @@ disable_autostart() {
 ISSUE() {
     echo "0.1.0"
     echo "0.1.2"
-    echo "0.1.3"
-    echo "0.1.4"
     echo "0.9.9"
+    echo "0.9.91"
 }
 
 filterResult() {
@@ -372,7 +371,6 @@ setConfig() {
 
     echo "$1已修改为$2"
 }
-
 
 # 关闭防火墙
 disable_firewall() {
