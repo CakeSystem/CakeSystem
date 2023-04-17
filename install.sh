@@ -461,7 +461,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="rustminersystem-${1}"
+        ORIGIN_EXEC="CakeSystem-${1}"
     fi
 
     echo $ORIGIN_EXEC
