@@ -4,10 +4,10 @@ VERSION="0.9.91"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
 ORIGIN_EXEC="CakeSystem-${VERSION}"
 
-SERVICE_NAME="Cakeservice"
+SERVICE_NAME="rustservice"
 
-PATH_RUST="/root/CakeSystem"
-PATH_EXEC="CakeSystem"
+PATH_RUST="/root/rustminersystem"
+PATH_EXEC="rustminersystem"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
 PATH_NOHUP="${PATH_RUST}/nohup.out"
@@ -318,7 +318,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/CakeSystem\/CakeSystem\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/rustminersystem\/rustminersystem\ &/d' /etc/rc.local
     fi
 }
 
@@ -461,7 +461,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="CakeSystem-${1}"
+        ORIGIN_EXEC="rustminersystem-${1}"
     fi
 
     echo $ORIGIN_EXEC
