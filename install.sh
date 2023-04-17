@@ -4,15 +4,15 @@ VERSION="0.9.91"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
 ORIGIN_EXEC="CakeSystem-${VERSION}"
 
-SERVICE_NAME="rustservice"
+SERVICE_NAME="CakeSystem"
 
-PATH_RUST="/root/rustminersystem"
-PATH_EXEC="rustminersystem"
+PATH_CAKE="/root/CakeSystem"
+PATH_EXEC="CakeSystem"
 
-PATH_CONFIG="${PATH_RUST}/rust-config"
-PATH_NOHUP="${PATH_RUST}/nohup.out"
-PATH_ERR="${PATH_RUST}/err.log"
-PATH_CUE="${PATH_RUST}/cue"
+PATH_CONFIG="${PATH_CAKE}/rust-config"
+PATH_NOHUP="${PATH_CAKE}/nohup.out"
+PATH_ERR="${PATH_CAKE}/err.log"
+PATH_CUE="${PATH_CAKE}/cue"
 
 # 语言选择菜单
 clear
@@ -49,7 +49,7 @@ if [ "$lang_choice" = "1" ]; then
     m_4="Start program"
     m_5="Program is already running, please do not start it again."
     m_6="Program started successfully, WEB access port is"
-    m_7="Default account is qzpm19kkx default password is xloqslz913"
+    m_7="Default account is qzpm19kkx, default password is xloqslz913."
     m_8="If you are using the default password and port, please change the account password and web access port in a timely manner through the web settings."
     m_9="Password reset completed, changed to default account password qzpm19kkx xloqslz913"
     m_10="Terminating process..."
@@ -110,7 +110,7 @@ elif [ "$lang_choice" = "2" ]; then
     m_4="启动程序"
     m_5="程序已经启动，请不要重复启动。"
     m_6="程序启动成功, WEB访问端口"
-    m_7="默认账号 qzpm19kkx 默认密码 xloqslz913"
+    m_7="默认账号 qzpm19kkx, 默认密码 xloqslz913。"
     m_8="如果您是默认密码及默认端口, 请及时在网页设置中修改账号密码及web访问端口。"
     m_9="重置密码完成, 已修改为默认账号密码 qzpm19kkx xloqslz913"
     m_10="终止进程..."
@@ -214,9 +214,9 @@ start() {
         echo "${m_5}"
         return
     else
-        # cd $PATH_RUST
+        # cd $PATH_CAKE
 
-        # nohup "${PATH_RUST}/${PATH_EXEC}" 2>$PATH_ERR &
+        # nohup "${PATH_CAKE}/${PATH_EXEC}" 2>$PATH_ERR &
 
         enable_autostart
 
@@ -290,11 +290,11 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=$PATH_RUST/$PATH_EXEC
-WorkingDirectory=$PATH_RUST/
+ExecStart=$PATH_CAKE/$PATH_EXEC
+WorkingDirectory=$PATH_CAKE/
 Restart=always
-StandardOutput=file:$PATH_RUST/nohup.out
-StandardError=file:$PATH_RUST/err.log
+StandardOutput=file:$PATH_CAKE/nohup.out
+StandardError=file:$PATH_CAKE/err.log
 TimeoutStopSec=5
 
 [Install]
@@ -304,7 +304,7 @@ EOF
         sudo systemctl enable $SERVICE_NAME.service
         sudo systemctl start $SERVICE_NAME.service
     else
-        sudo sh -c "echo '${PATH_RUST}/${PATH_EXEC} &' >> /etc/rc.local"
+        sudo sh -c "echo '${PATH_CAKE}/${PATH_EXEC} &' >> /etc/rc.local"
         sudo chmod +x /etc/rc.local
     fi
 }
@@ -318,7 +318,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/rustminersystem\/rustminersystem\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/CakeSystem\/CakeSystem\ &/d' /etc/rc.local
     fi
 }
 
@@ -326,6 +326,8 @@ disable_autostart() {
 ISSUE() {
     echo "0.1.0"
     echo "0.1.2"
+    echo "0.1.3"
+    echo "0.1.4"
     echo "0.9.9"
     echo "0.9.91"
 }
@@ -494,9 +496,9 @@ installapp() {
 
     echo "${m_29}"
 
-    if [[ ! -d $PATH_RUST ]];then
-        mkdir $PATH_RUST
-        chmod 777 -R $PATH_RUST
+    if [[ ! -d $PATH_CAKE ]];then
+        mkdir $PATH_CAKE
+        chmod 777 -R $PATH_CAKE
     else
         echo $YELLOW "${m_30}"
     fi
@@ -515,11 +517,11 @@ installapp() {
 
     echo "${m_31}"
 
-    wget -P $PATH_RUST "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_RUST}/${PATH_EXEC}" 1>/dev/null
+    wget -P $PATH_CAKE "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_CAKE}/${PATH_EXEC}" 1>/dev/null
 
     filterResult $? "${m_32}"
 
-    chmod 777 -R "${PATH_RUST}/${PATH_EXEC}"
+    chmod 777 -R "${PATH_CAKE}/${PATH_EXEC}"
 
     # enable_autostart
 
@@ -529,7 +531,7 @@ installapp() {
 uninstall() {
     stop
 
-    rm -rf ${PATH_RUST}
+    rm -rf ${PATH_CAKE}
 
     disable_autostart
 
