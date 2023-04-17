@@ -374,6 +374,7 @@ setConfig() {
     echo "$1已修改为$2"
 }
 
+
 # 关闭防火墙
 disable_firewall() {
     os_name=$(grep "^ID=" /etc/os-release | cut -d "=" -f 2 | tr -d '"')
