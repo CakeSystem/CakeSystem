@@ -46,7 +46,7 @@
 
 # 加入聊天组
 
-Telegram：<a href="https://t.me/+OiG7xOS-ZZg1ZDI1">https://t.me/+OiG7xOS-ZZg1ZDI1</a>
+Telegram：<a href="https://t.me/CakeSystem">https://t.me/CakeSystem</a>
 
 <!-- Discord：<a href="sadfasfdasfsa">sadfasfdasfsa</a> -->
 
@@ -121,6 +121,16 @@ CakeSystem受香港法律监管。请注意，不同国家/地区的法律要求
 
 # 更新日志
 ```
+0.9.92
+修复了部分内核kas连不进来的问题
+
+完善了ltc小算力显示的bug
+
+0.9.91
+修复了热更新钱包导致程序崩溃的bug
+
+修复了因为上个版本改动导致的kas无法正常工作的问题
+
 0.9.9
 优化了很多细节
 
