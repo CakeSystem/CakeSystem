@@ -97,6 +97,9 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+0.9.93
+fix
+   
 0.0.92
 Fixed a bug where the hot update wallet would cause the application to crash. Fixed some kernel kas connection issues 
  
