@@ -4,7 +4,7 @@
 
 # CakeSystem
 
-<h2>一款矿池级别的运维工具👍 </h2>
+<h2>一款矿池级别的矿机管理运维系统👍 </h2>
 
 <img src="/image/logo.png" alt="Logo" width="170">
 
