@@ -97,8 +97,12 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+0.0.97
+Fixed a serious bug in program pseudo death
+   
 0.0.96
 The perfect BTC@KAS
+   
 0.0.95
    
 fix...
