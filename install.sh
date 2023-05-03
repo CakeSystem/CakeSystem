@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="0.9.97"
+VERSION="0.9.98"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
 ORIGIN_EXEC="CakeSystem-${VERSION}"
 
@@ -336,6 +336,7 @@ ISSUE() {
     echo "0.9.95"
     echo "0.9.96"
     echo "0.9.97"
+    echo "0.9.98"
 }
 
 filterResult() {
