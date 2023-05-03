@@ -97,6 +97,9 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+0.9.98
+Optimize the bottom layer and reduce losses
+   
 0.0.97
 Fixed a serious bug in program pseudo death
    
