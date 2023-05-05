@@ -97,6 +97,10 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+0.9.99
+Optimize BTC, LTC
+Optimized mean delay display is not accurate
+   
 0.9.98
 Optimize the bottom layer and reduce losses
    
