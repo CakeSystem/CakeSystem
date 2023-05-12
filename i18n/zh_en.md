@@ -97,6 +97,9 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+1.0.0
+Open test
+   
 0.9.999
 A serious security breach was fixed
 Optimized commission logic for all currencies
