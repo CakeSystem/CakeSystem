@@ -97,6 +97,9 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+1.0.1
+Fixed a bug caused by links
+   
 1.0.0
 Open test
    
