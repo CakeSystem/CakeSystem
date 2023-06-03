@@ -97,6 +97,14 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+1.0.4
+Optimized the efficiency of some BTC models, optimized the rejection rate of viabtc and ant mine pool
+optimized a detail bug, and further reduced the inefficiency
+
+1.0.3
+Performance optimization 
+Added configuration import and export in json, kt, and excel formats
+   
 1.0.2
 The underlying reconstruction optimizes the processing and statistics of multiple links 
 It is deeply optimized for e9pro 
