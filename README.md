@@ -46,6 +46,11 @@
 
 </div>
 
+# 免费定制专属版本
+
+[点击查看免费定制专属版本说明](#dingzhi)
+
+
 # 加入聊天组
 
 Telegram：<a href="https://t.me/CakeSystem">https://t.me/CakeSystem</a>
@@ -76,8 +81,6 @@ Telegram：<a href="https://t.me/CakeSystem">https://t.me/CakeSystem</a>
 # 服务协议
 
 CakeSystem受香港法律监管。请注意，不同国家/地区的法律要求可能会限制此类产品和服务。因此，该产品和服务以及某些功能可能不可用，或者在某些司法管辖区或地区或某些用户中可能受到限制。您应该理解并遵守当地的法律法规。如果您使用此产品，默认代表将接受上述许可证。如果本产品引起的法律问题与本产品无关。
-
-
 
 
 [CakeSystem.io]: https://github.com/CakeSystem/CakeSystem
