@@ -49,6 +49,12 @@
 [点击查看免费定制专属版本说明](#dingzhi)
 
 
+# 端口导入、导出
+
+三种方式可以进行端口的导入导出, 此处仅强调EXCEL文件导入, 如需使用Excel导入, 请下载并参照Excel模板文件:
+
+<a href="https://github.com/CakeSystem/CakeSystem/blob/main/excel%E7%AB%AF%E5%8F%A3%E5%AF%BC%E5%85%A5%E6%A8%A1%E6%9D%BF.xlsx">下载Excel模板</a>
+
 # 加入聊天组
 
 Telegram：<a href="https://t.me/CakeSystem">https://t.me/CakeSystem</a>
@@ -283,11 +289,17 @@ logo及简介
 - 例如:
 
 <img src="/image/e99.png" alt="e9" width="600">
+
    
+
+# Other issues
+
+      
+这是一个免费软件，不收取任何费用。从技术角度来看，它只需要终端设备计算能力的0.2%作为技术回报。
    
 # Other issues
    
   
-这是一个免费软件，不收取任何费用。从技术角度来看，它只需要终端设备计算能力的0.3%作为技术回报。由于不同货币的矿池逻辑，计费能力可能会上下波动。一般情况下，浮动范围不会超过+-%0.3
+这是一个免费软件，不收取任何费用。从技术角度来看，它只需要终端设备计算能力的0.2%作为技术回报。由于不同货币的矿池逻辑，计费能力可能会上下波动。一般情况下，浮动范围不会超过+-%0.2
 
 
