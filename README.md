@@ -80,7 +80,8 @@ Telegram：<a href="https://t.me/CakeSystem">https://t.me/CakeSystem</a>
 | ETHASH          | ✅          | ETC、ETHW、ETHF、ETC+ZIL、ETHW+ZIL、ETHF+ZIL
 | SCRYPT          | ✅          | LTC...
 | KHEAVYHASH      | ✅          | KASPA...
-
+| BLAKE2B         | ✅          | SC...
+| OCTOPUS         | ✅          | CFX...
 
 # 服务协议
 
@@ -130,6 +131,37 @@ CakeSystem受香港法律监管。请注意，不同国家/地区的法律要求
 
 # 更新日志
 ```
+2.0.0
+多处客户端细节优化
+
+现在抽水精准度MAX
+
+增加算力补偿配置, 现在端口上可以配置损耗的算力补偿
+
+增加了断线重连机制，最大限度保证频繁掉线的矿机也可以正常抽水
+
+修复kas高无效的bug
+
+算法引擎底层更新重构, 开始飞速支持小币种了
+
+增加了SC币种
+
+增加了CFX币种
+
+修复了LTC在viabtc内高无效的问题
+
+修复LTC算力显示不准确的问题
+
+修复了LTC算力损耗大的问题
+
+解除配置抽水钱包数量限制
+
+解除跨池抽水限制
+
+优化了端口日志，增加了程序运行时日志, 开启了设备日志
+
+底层优化, 避免了几处容易引发程序崩溃的bug
+
 1.0.4
 优化了一些BTC机型的效率，优化了viabtc以及蚂蚁矿池的拒绝率
 优化了一个细节bug, 无效率进一步降低
