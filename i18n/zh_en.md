@@ -97,6 +97,37 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+2.0.0 
+Multiple client details optimization 
+ 
+Now the pumping accuracy is MAX 
+ 
+Added power compensation configuration, now the loss of power compensation can be configured on the port 
+ 
+The mechanism of re-connection of broken lines is added to ensure that the mining machine with frequent disconnection can also pump normally 
+ 
+Fixed kas high invalidation bug 
+ 
+The underlying algorithm engine was updated and reconstructed, and began to rapidly support small coins 
+ 
+Added SC currency 
+ 
+Added CFX currency 
+ 
+Fixed an issue where LTC was highly ineffective in viabtc 
+ 
+Fixed an issue with inaccurate LTC power display 
+ 
+Fixed LTC computing power loss problem 
+ 
+Remove the limit on the number of pumping wallets 
+ 
+Lifting cross-pond pumping restrictions 
+ 
+Optimized port logs, added program runtime logs, and enabled device logs
+
+The low-level optimization avoids several bugs that are easy to cause program crashes
+
 1.0.4
 Optimized the efficiency of some BTC models, optimized the rejection rate of viabtc and ant mine pool
 optimized a detail bug, and further reduced the inefficiency
