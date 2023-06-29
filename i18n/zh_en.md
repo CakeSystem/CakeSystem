@@ -97,6 +97,10 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+2.0.2
+Fixed a software crash caused by concurrency  
+Statistical optimization of computing powe
+
 2.0.0 
 Multiple client details optimization 
  
