@@ -97,6 +97,28 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+2.0.6
+Optimized power compensation, the power compensation option is now hidden, and power is allocated to all miners by default 
+ 
+Optimized E9pro, now all mining pools can run full E9pro, and the calculation of e9pro in rust is accurate and consistent with the mining pool 
+ 
+Added a pumping mode 
+ 
+Added a mode for connecting mine pools 
+ 
+Optimized mining machine with high computing power
+
+
+2.0.5
+
+[Important Update] Fixed a bug where RUST was suspended in windows 
+ 
+Fixed high inefficiency of kas Glacier and other chip machines 
+ 
+Compatible with the etc gtv66 chip, improve the etc computing power calculation 
+ 
+Fixed some bugs in power statistics
+
 2.0.4 
 The default mode of computing power compensation is optimized to further reduce inefficiency 
  
