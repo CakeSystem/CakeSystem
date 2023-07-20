@@ -97,6 +97,11 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+2.0.9
+Solve the stuck problem
+
+Optimal pumping
+
 2.0.8
 Two pumping algorithms are combined  
 
