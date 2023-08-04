@@ -97,6 +97,9 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+3.1.0
+Tuning the performance of new algorithms under ETC algorithm
+
 3.0.0
 Reconfigured the pumping algorithm, and now all currencies can pump accurately to the thousandth digit 
  
