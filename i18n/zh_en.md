@@ -97,6 +97,9 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 # Version Log
 ```
+3.2.4
+Significantly improve the accuracy of power statistics and pumping for all currently supported currencies
+
 3.2.2
 Fixed kas slow burst memory bug
 
