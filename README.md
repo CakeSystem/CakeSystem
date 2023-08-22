@@ -89,7 +89,7 @@ CakeSystem受香港法律监管。请注意，不同国家/地区的法律要求
 
 
 [CakeSystem.io]: https://github.com/CakeSystem/CakeSystem
-[CakeSystem.io-badge]: https://img.shields.io/badge/CakeSystem-v0.9.9-green?logo=rust
+[CakeSystem.io-badge]: https://img.shields.io/badge/CakeSystem-v3.3.0-green?logo=rust
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/CakeSystem/CakeSystem/releases
 [stars-url]: https://github.com/CakeSystem/CakeSystem/stargazers
@@ -126,11 +126,54 @@ CakeSystem受香港法律监管。请注意，不同国家/地区的法律要求
    > ```
    >
 
+Windows版本直接双击启动即可。
+
+Linux运行脚本后，输入1或2选择安装菜单语言, 随后弹出如下界面
+
+---------- 中文菜单 ----------
+
+安装
+更新
+启动软件
+停止软件
+重启软件
+修改启动端口
+解除Linux系统连接数限制（需要重启服务器生效）
+设置开机启动
+关闭开机启动
+查看程序运行状态
+查看错误日志
+清理日志文件
+查看当前WEB访问端口
+卸载
+重置认账号密码
+安装指定版本 [1-16]：
+
+输入1安装即可
+
+安装完成后会输出以下提示
+
+|----------------------------------------------------------------|
+程序启动成功, WEB访问端口4360, 默认账号 qzpm19kkx 默认密码 xloqslz913
+
+如果您是默认密码及默认端口, 请及时在网页设置中修改账号密码及web访问端口。
+
+看到以上提示代表安装已成功, 在浏览器内输入服务器IP:端口号, 即可访问后台。
    </details>
 
 
 # 更新日志
 ```
+3.3.0已发布 【RMS客户端发布】
+修复无法导入配置的bug
+增加程序更新日志
+优化端口列表分类显示，增加了所有端口的显示
+大幅优化ltc抽水精准度，提升其他币种计算以及抽水精准度
+修复了部分etc机型无法连接的问题
+
+RMS客户端下载地址 （RMS客户端需要CakeSystem版本> 3.3.0才能正常使用） 教程和linux版本的安装教程随后编写, windows直接下载windows目录里的二进制文件即可
+地址：https://github.com/CakeSystem/RMS
+
 3.2.4已发布
 大幅提升当前支持的所有币种的算力统计及抽水的精准度
 
