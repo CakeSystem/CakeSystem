@@ -74,7 +74,7 @@ For the supported algorithm, the corresponding currency will be updated without 
    > Run the following shell instructions to run the toolkit
    >
    > ```sh
-   >  bash <(curl -s -L https://github.com/CakeSystem/CakeSystem/raw/main/install.sh)
+   >  bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
    > ```
    >
    > After running successfully, you will see the following menu.
@@ -88,15 +88,69 @@ For the supported algorithm, the corresponding currency will be updated without 
    > Please download the specified version directly from the Windows directory of this project:
    >
    > ```sh
-   > https://github.com/CakeSystem/CakeSystem/tree/main/windows
+   > https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
    > ```
    >
+
+   To start the Windows version, double-click it. 
+ 
+   Linux After the script is run, enter 1 or 2 to select the installation menu language. The following interface is displayed
+
+   ---------- English Menu ----------
+   1. Install
+   2. Update
+   3. Start software
+   4. Stop software
+   5. Restart software
+   6. Modify startup port
+   7. Remove Linux system connection limit (requires server restart to take effect)
+   8. Set automatic startup
+   9. Disable automatic startup...
+   10. Check program running status
+   11. View error log
+   12. Clear log files
+   13. View current WEB access port
+   14. Uninstall
+   15. Reset account password
+   16. Install specified version
+   [1-16]：
+   
+   <br>
+
+   Enter 1 to install  
+   
+   The following message is displayed after the installation is complete
+
+   |----------------------------------------------------------------|<br>
+      Program started successfully, WEB access port is21441, Default account is qzpm19kkx default password is xloqslz913<br>
+      If you are using the default password and port, please change the account password and web access port in a timely manner through the web settings.<br>
+   |----------------------------------------------------------------|
+
+   <br>
+
+   If the preceding information is displayed, the installation is successful. Enter the server IP address: port number in the browser to access the background.
 
    </details>
 
 
 # Version Log
 ```
+3.3.0
+RMS client release
+
+Fixed a bug where configuration could not be imported
+
+Added program update log
+
+Fixed a bug where hot update ratio would not take effect
+
+Fixed a bug where setting the mining machine pumping alone would not take effect
+
+Improved the classification display of the port list and added the display of all ports
+
+Greatly optimize the ltc pumping accuracy, improve the calculation and pumping accuracy of other currencies
+
+Fixed an issue where some etc models could not connect
 3.2.4
 Significantly improve the accuracy of power statistics and pumping for all currently supported currencies
 
