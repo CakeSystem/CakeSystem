@@ -30,7 +30,7 @@
 
 
 
-[![RustMinerSystem][rustMinerSystem.io-badge]][RustMinerSystem.io]
+[![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
 [![Stargazers][stars-shield]][stars-url]
 
 <!-- <a href="https://github.com/CakeSystem/CakeSystem">简体中文</a>｜<a href="https://github.com/CakeSystem/CakeSystem/tree/main/Readme/i18n">English</a> -->
@@ -186,7 +186,7 @@
 
 ### 👉 **更新日志**
 
-![](https://ghproxy.com/https://raw.githubusercontent.com/CakeSystem/CakeSystem/output/github-contribution-grid-snake.svg)
+![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
    3.6.0
