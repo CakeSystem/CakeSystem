@@ -189,7 +189,14 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
- 3.7.2
+   3.7.3
+   增加是否强制下发成功份额开关
+
+   修复etc抽水算力显示和矿池不一致问题（纯显示问题）
+   
+   修复gtv66两个地方展示的算力是以p为单位的问题（纯显示问题）
+
+   3.7.2
    优化gtv66和e9pro全批次不同固件的机型，现在这两类机型都可以跑同一个端口并且解决掉了相关的无效以及相关的所有BUG
 
    解禁了DNX抽水限制, 但是目前不要抽水，因为官方以及矿池并未按照公布时间进行解除验证, 等后续矿池公告以后再开启抽水
