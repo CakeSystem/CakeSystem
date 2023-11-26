@@ -234,6 +234,7 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 
    rms 增加手动模式, 可自己添加指定rms协议的服务器ip+端口
    
+   
    3.7.3
    增加是否强制下发成功份额开关
 
