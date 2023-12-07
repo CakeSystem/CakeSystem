@@ -189,6 +189,11 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.8.2
+   增加KLS
+
+   优化一处CPU及内存占用
+
    3.8.0已发布
 
    增加了对 NEXA CLORE NEURAI NEOXA ZIL 
