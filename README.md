@@ -149,7 +149,7 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 
 ### 👉 **加入聊天组**
 
-<p>&emsp;&emsp;Telegram：<a href="https://t.me/CakeMinerSystem">https://t.me/CakeMinerSystem</a></p>
+<p>&emsp;&emsp;Telegram：<a href="https://t.me/CakeSystem">https://t.me/CakeSystem</a></p>
 
 <!-- <p>&emsp;&emsp;Discord: <a href="https://discord.gg/xpjRnv8wpX">https://discord.gg/xpjRnv8wpX</a></p> -->
 
