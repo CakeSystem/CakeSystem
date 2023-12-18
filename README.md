@@ -193,6 +193,18 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.1已发布
+   
+   增加BEL
+
+   修复了BLOCX无法在Mining-Dutch矿池工作的bug
+
+   创建端口时，币种选择器改为可搜索，方便使用
+
+   均线图表现在跟随小时平均组件设置显示
+
+   修复了一处接口报错
+
    3.9.0已发布
    [重要更新]
    全币种算法整体优化, 抗波动性更强更精准
