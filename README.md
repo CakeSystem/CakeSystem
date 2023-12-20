@@ -193,6 +193,14 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.2已发布
+
+   增加pyi
+   
+   修复如果代理矿池是ip+ssl+假证书的情况下，无法连接的问题
+
+   页面细节调整
+
    3.9.1已发布
    
    增加BEL
