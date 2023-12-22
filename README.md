@@ -193,6 +193,10 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.3已发布
+
+   增加IRON、DOGETHER
+
    3.9.2已发布
 
    增加pyi
