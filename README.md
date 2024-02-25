@@ -193,6 +193,11 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.7已发布
+   修复ZEPH相关BUG
+   增加SDR
+   重构了端口编辑、添加窗口
+
    3.9.6
    增加GRIN、SPACE币种
 
