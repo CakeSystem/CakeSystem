@@ -193,6 +193,18 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.8已发布
+
+   [重要更新]  增加安全访问地址，现在可以通过菜单 - 设置安全访问地址进行设置，设置此项可有效防止后台被扫描，防止爆破
+
+   优化ETC 从3.9.3-3.9.7抽不够的问题
+
+   完整的中文、俄语、英语语言包
+
+   增加了老旧矿机优化的开关，不需要的用户可关闭
+
+   程序整体稳定性提升
+
    3.9.7已发布
    修复ZEPH相关BUG
    增加SDR
