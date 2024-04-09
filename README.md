@@ -193,6 +193,27 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+3.9.91已发布
+
+更新了IRON的新算法
+
+Updated IRON's new algorithm
+
+Обновлен новый алгоритм IRON.
+
+
+3.9.9
+[重要更新] 修复了过去几个版本容易掉线的问题（这个问题是由于本地网络波动导致的, 现在不会了）
+
+[重要更新] 增加了一处被cc攻击的防御补丁
+
+[Important update] Fixed the issue of easy disconnections in previous versions (this issue was caused by local network fluctuations and is no longer present)
+[Important update] Added a defense patch for CC attack
+
+[Важное обновление] устраняет проблему, из - за которой предыдущие версии были легко отключены (проблема, вызванная волатильностью локальной сети, теперь не будет)
+[Важное обновление] Добавлен защитный патч, атакованный CC
+
+
    3.9.8已发布
 
    [重要更新]  增加安全访问地址，现在可以通过菜单 - 设置安全访问地址进行设置，设置此项可有效防止后台被扫描，防止爆破
