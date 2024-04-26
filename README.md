@@ -193,6 +193,21 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+
+3.9.92已发布
+
+【重要更新】优化了网络波动下导致矿机随机掉线（部分神马阿瓦隆机型会死机）的问题
+端口配置增加替换矿工名
+更新kas>6.5T机型端口
+
+[Important Update] Optimized the issue of mining machines randomly dropping due to network fluctuations (some Shenma Avalon models may crash)
+Add and replace miner names in port configuration
+Update kas>6.5T model ports
+
+« Важное обновление» оптимизирует проблемы, которые приводят к случайным отключениям шахтеров при колебаниях сети (некоторые модели Shenma Avalon умирают)
+Настройка порта Добавить имя шахтера
+Обновление порта Kas > 6.5T
+
 3.9.91已发布
 
 更新了IRON的新算法
