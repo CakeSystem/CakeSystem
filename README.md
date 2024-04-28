@@ -194,6 +194,17 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 
 ```
 
+3.9.93已发布
+
+修复上个版本KAS > 6.5T端口无法正常工作的问题
+修复部分小币种特殊机型抽不够的问题
+
+Fix the issue of KAS>6.5T port not working properly in the previous version
+Fix the issue of insufficient drawing for some small currency special models
+
+Исправление неполадок с портом 6.5T предыдущей версии KAS >
+Исправление недостатков в некоторых специальных моделях небольших валют
+
 3.9.92已发布
 
 【重要更新】优化了网络波动下导致矿机随机掉线（部分神马阿瓦隆机型会死机）的问题
