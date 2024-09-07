@@ -2,12 +2,14 @@
 
 <div align="center">
 
+### <a href="https://www.p2pool.xyz">代理传统矿池, 或成为真正的矿池节点! 点击查看!</a>
+
 <img src="./image/logo.png" alt="Logo" width="170">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F76322&center=true&vCenter=true&width=435&lines=CakeMinerSystem)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=%E5%9F%BA%E4%BA%8ECake%E6%89%93%E9%80%A0%E5%9C%B0%E8%A1%A8%E6%9C%80%E5%BC%BA%E7%9A%84MinerProxy)](https://git.io/typing-svg)
 
-### <a href="https://www.p2pool.xyz">代理传统矿池, 或成为真正的矿池节点! 点击查看!</a>
+
 
 <img src="./image/1.png" alt="Logo">
 
