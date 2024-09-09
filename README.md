@@ -201,6 +201,13 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 
 ```
 
+4.0.0-beta-0.2已发布
+
+修复矿池节点S19Kpro无法接入的问题
+修复传统代理统计图表混乱问题
+修复矿池节点自定义证书相关问题
+矿池官网可行化配置增加旋转LOGO开关
+
 3.9.94已发布
 所有币种全部应用了上个版本BTC的抗网络波动方式， 整体稳定性大幅提升。
 
