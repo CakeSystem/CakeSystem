@@ -200,7 +200,7 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
-4.0.1已发布
+4.1.0已发布
 传统代理增加ALEO
 修复L9矿机抽水
 
