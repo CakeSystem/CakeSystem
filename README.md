@@ -200,12 +200,13 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
-4.1.1 正式版已发布
+4.1.2 已发布
+修复4.1.0和4.1.1多数币种大面积出问题的BUG
 
+4.1.1 正式版已发布
 修复4.1.0RMS掉线问题
 
 4.1.0 正式版已发布
-
 增加兼容模式，在费率配置处配置，ALEO、追风L9请使用此模式
 增加ALEO（请开启兼容模式， 内核抽水请使用替换钱包功能拦截）
 修复了一个导致RMS压缩卡死的BUG
