@@ -200,6 +200,14 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.1.3 已发布
+
+增加FB双挖，过去单挖BTC的FB收益已累积，请在矿池首页进行账单查询及配置付款
+矿池节点增加当日已挖预估收益，收益查询页面可看到
+矿池节点增加端口自定义挖矿地址配置
+矿池节点增加隐藏费率开关，在个性化配置中可进行配置
+修改纯转发的显示方式，否则容易造成误解
+
 4.1.2 已发布
 修复4.1.0和4.1.1多数币种大面积出问题的BUG
 
