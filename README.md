@@ -200,6 +200,20 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.1.4 已发布
+
+修复矿池节点端口显示、隐藏、自定义地址非同步BUG
+增加矿池节点非同步配置编辑
+矿池节点增加子账号管理
+矿池节点费率付款日志增加收入来源信息
+子账号管理目前可查看子账号相关信息
+子账号管理增加单独设置费率、返佣、以及管理员观察者
+矿池官网增加移动端访问二维码，扫码可免登录访问
+矿池官网增加子账号观察者链接
+矿池官网增加导出收益日志（excel, csv）
+矿池官网细节优化
+
+
 4.1.3 已发布
 
 增加FB双挖，过去单挖BTC的FB收益已累积，请在矿池首页进行账单查询及配置付款
