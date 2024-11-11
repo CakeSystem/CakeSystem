@@ -200,6 +200,13 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.1.5 已发布
+修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题（RMS同时也更新了1.2.6版本， 使用RMS接入请更新客户端（1.2.6）以及服务端（4.1.5））
+
+RMS 1.2.6已发布
+修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题
+
+
 4.1.4 已发布
 
 修复矿池节点端口显示、隐藏、自定义地址非同步BUG
