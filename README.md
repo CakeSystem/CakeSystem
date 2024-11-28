@@ -200,6 +200,24 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.2.0 已发布
+
+矿池节点增加LTC DOGE BEL（请注意, 如果有服务器是不支持LTC的版本，同步其他服务器的LTC端口，请不要使用这个端口挖矿）
+
+上线移动端访问, 可在矿池首页 -> 设置 -> 移动端访问 进行移动端访问
+
+修复矿池节点用户以及管理员观察者链接打不开的问题
+
+矿池后台费率收益查询工具现在可查出收益来源类型
+
+矿池官网页面优化
+
+程序稳定性提升, 修复一处有极低概率的cc异常攻击
+
+传统代理端口详情页增加连接监控
+
+优化了服务器流量上下行显示不准确的问题
+
 4.1.5 已发布
 修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题（RMS同时也更新了1.2.6版本， 使用RMS接入请更新客户端（1.2.6）以及服务端（4.1.5））
 
