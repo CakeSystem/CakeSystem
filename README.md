@@ -200,6 +200,14 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.3.0 已发布
+
+新增RMS2端口协议，配合新的RMS本地客户端，数据体积可压缩百分之30-50
+
+矿池节点开放所有币种起付额设置
+
+修复矿池节点页面一些bug
+
 4.2.0 已发布
 
 矿池节点增加LTC DOGE BEL（请注意, 如果有服务器是不支持LTC的版本，同步其他服务器的LTC端口，请不要使用这个端口挖矿）
