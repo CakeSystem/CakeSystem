@@ -200,6 +200,10 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.3.1 已发布
+
+【重要更新】修复RMS2端口一个潜在被攻击导致内存溢出的风险（如果您的RMS2端口被攻击者攻击，会导致软件瞬间重启）
+
 4.3.0 已发布
 
 新增RMS2端口协议，配合新的RMS本地客户端，数据体积可压缩百分之30-50
