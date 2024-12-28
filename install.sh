@@ -31,6 +31,7 @@ echo "Please select your language / 请选择语言:"
 # echo ""
 echo "1. English"
 echo "2. 中文"
+prompt_title="官网 https://www.p2pool.xyz/"
 # echo ""
 read -p "$(echo -e "[1-2]：")" lang_choice
 
@@ -96,8 +97,8 @@ if [ "$lang_choice" = "1" ]; then
     m_40="Program startup failure!!!"
 
 elif [ "$lang_choice" = "2" ]; then
-    prompt_title="---------- 中文菜单 ----------"
-	prompt_title2="----官网https://www.p2pool.xyz/"
+    #prompt_title="---------- 中文菜单 ----------"
+	prompt_title="----官网 https://www.p2pool.xyz/"
     prompt_install="1. 安装"
     prompt_update="2. 更新"
     prompt_start="3. 启动软件"
