@@ -4,7 +4,7 @@ VERSION="4.3.1"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
 ORIGIN_EXEC="CakeSystem-${VERSION}"
 
-SERVICE_NAME="rustservice"
+SERVICE_NAME="CakeSystem"
 
 PATH_CAKE="/root/CakeSystem"
 PATH_EXEC="CakeSystem"
