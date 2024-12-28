@@ -31,7 +31,7 @@ echo "Please select your language / 请选择语言:"
 # echo ""
 echo "1. English"
 echo "2. 中文"
-prompt_title="官网 https://www.p2pool.xyz/"
+echo "官网 https://www.p2pool.xyz/"
 # echo ""
 read -p "$(echo -e "[1-2]：")" lang_choice
 
