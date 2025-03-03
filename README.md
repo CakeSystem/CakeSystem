@@ -200,6 +200,15 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.3.4 已发布
+【重要更新】
+对于已经更新了4.3.2的用户，请务必更新至4.3.4，由于4.3.2的日志在未关闭的情况下发布，矿机接入后会快速将硬盘打爆从而引发操作系统崩溃，请务必更新
+
+完美兼容whalepool
+
+Perfect compatibility with whalepool
+
+
 4.3.2 已发布
 
 兼容了whalepool的KASPA
