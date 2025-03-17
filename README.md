@@ -200,6 +200,18 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.1 已发布
+
+修复LTC在一些矿池下工作抽至VIABTC出现拒绝的问题（该问题可等VIABTC池子更新也可解决，也可现在更新版本解决，但是例如追风L9、福禄等机型需等VIABTC更新）
+
+兼容LTC福禄矿机，如果要跑福禄LTC，请在端口配置处，打开福禄矿机优化开关
+
+优化了一处连接逻辑，效率略微有所提升
+
+矿池节点增加ETC
+
+修复矿池节点后台无法隐藏节点的问题
+
 4.4.0 已发布
 
 完美兼容全机型LTC（包含追风L9）跨池抽至VIABTC
