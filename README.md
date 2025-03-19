@@ -200,6 +200,11 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.2 已发布
+彻底修复全机型LTC（ 包含追风以及福禄LTC, 福禄LTC请在端口处打开福禄LTC优化，跨池抽至viabtc有拒绝不影响客户，请等待viabtc近一周矿池端修复）
+Complete repair of all models of LTC(including Chifeng and Fulu LTC, Fulu LTC please turn on the optimization of Fulu LTC at the port base change, if the cross-pool pumping to viabtc is rejected, it will not affect customers, please wait for viabtc to repair the mine end in about a week)
+
+
 4.4.1 已发布
 
 修复LTC在一些矿池下工作抽至VIABTC出现拒绝的问题（该问题可等VIABTC池子更新也可解决，也可现在更新版本解决，但是例如追风L9、福禄等机型需等VIABTC更新）
