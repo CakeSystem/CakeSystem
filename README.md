@@ -200,6 +200,15 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.3 已发布
+
+支持ALEO芯片机 -注意，只能同池抽水，不能跨池。
+（ALEO端口现在可以跑芯片机了，且只能跑芯片机，但是不能跑GPU锄头，GPU锄头也不准备支持了）
+
+Support ALEO chip machine - Note that water can only be pumped in the same pool, not across pools.
+(ALEO port can now run the chip machine, and only run the chip machine, but can not run the GPU hoe, GPU hoe is not ready to support)
+
+
 4.4.2 已发布
 彻底修复全机型LTC（ 包含追风以及福禄LTC, 福禄LTC请在端口处打开福禄LTC优化，跨池抽至viabtc有拒绝不影响客户，请等待viabtc近一周矿池端修复）
 Complete repair of all models of LTC(including Chifeng and Fulu LTC, Fulu LTC please turn on the optimization of Fulu LTC at the port base change, if the cross-pool pumping to viabtc is rejected, it will not affect customers, please wait for viabtc to repair the mine end in about a week)
