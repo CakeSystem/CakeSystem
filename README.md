@@ -200,6 +200,10 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.4 已发布
+传统代理增加NEX币种
+Traditional agent adds NEX currency
+
 4.4.3 已发布
 
 支持ALEO芯片机 -注意，只能同池抽水，不能跨池。
