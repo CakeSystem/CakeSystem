@@ -200,6 +200,15 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.5 已发布
+
+开放矿池节点用户端API, API使用教程:
+https://rustminersystem.gitbook.io/rustminersystem/kuang-chi-jie-dian-yong-hu-duan-api/api-shi-yong-zhu-yi-shi-xiang-bi-du
+
+修复部分场地使用特殊代理工具跑LTC跨抽至VIABTC产生无效的问题, 目前追风L9和福禄旧固件的LTC机型，在某些矿池下跑抽到VIABTC会高拒绝的问题，可以等longpool更新后这部分机型跨池抽至longpool
+
+修复ETC节点延迟探测不到的BUG
+
 4.4.4 已发布
 传统代理增加NEX币种
 Traditional agent adds NEX currency
