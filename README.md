@@ -200,6 +200,14 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.7 已发布
+
+增加 ALEO 冰河端口, 冰河 ALEO 请单独创建ALEO(ICERIVER)币种
+请注意，鱼池的冰河挖矿地址为 aleo.f2pool.com:4440
+
+Add the ALEO Glacier port. For Glacier ALEO, please create the ALEO(ICERIVER) currency separately
+Please note that the glacier mining address of the fishpond is aleo.f2pool.com:4440
+
 4.4.6 已发布
 BTC和LTC的抽水算力建议抽到自建节点上，对比传统池子收益提升巨大！
 
