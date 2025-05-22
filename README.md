@@ -200,11 +200,17 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.8 已发布
+
+矿池节点底层 BTC、LTC 及赠币更新（旧版节点将全面停用）
+(更新前注意下记得删掉旧的 BTC 和 LTC 矿池节点的端口，否则更新后这些端口还会被 占用但是看不到在哪里)
+Update of the underlying BTC, LTC and bonus coins of the mining pool nodes (all old version nodes will be completely discontinued)
+Before updating, please remember to delete the ports of the old BTC and LTC mining pool nodes. Otherwise, after the update, these ports will still be occupied but you won't be able to see where they are.
+
 4.4.7 已发布
 
 增加 ALEO 冰河端口, 冰河 ALEO 请单独创建ALEO(ICERIVER)币种
 请注意，鱼池的冰河挖矿地址为 aleo.f2pool.com:4440
-
 Add the ALEO Glacier port. For Glacier ALEO, please create the ALEO(ICERIVER) currency separately
 Please note that the glacier mining address of the fishpond is aleo.f2pool.com:4440
 
