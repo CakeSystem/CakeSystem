@@ -3,7 +3,7 @@
 <div align="center">
 
 # <a href="https://www.p2pool.xyz">代理传统矿池, 或成为真正的矿池节点! 点此查看!</a>
-
+# <a href="https://pool.p2pool.xyz">https://pool.p2pool.xyz</a>
 
 
 
