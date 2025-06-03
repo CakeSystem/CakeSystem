@@ -200,6 +200,20 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.4.9 已发布
+
+增加矿池节点自助小额提币功能
+(用户端自助提币请在用户端官网 - 设置 - 小额提币处进行自助提币, 新旧版的账单都可提币)
+(管理员端邮箱收益小额自助提币在Rust后台 - 矿池节点 - 自助提币处进行提币)
+
+修复一处官网LTC费率显示不同步的问题
+
+Add the self-service small-amount withdrawal function for mining pool nodes
+For self-service withdrawals on the user end, please go to the "Settings" - "Small Withdrawals" section on the user end's official website. Both new and old versions of bills can be used for withdrawals.
+The small amount of self-withdrawal from the administrator's email can be made in the Rust backend - Mining Pool node - Self-withdrawal area.
+
+Fixed an issue where the LTC rate display on the official website was not synchronized
+
 4.4.8 已发布
 
 矿池节点底层 BTC、LTC 及赠币更新（旧版节点将全面停用）
