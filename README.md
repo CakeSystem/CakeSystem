@@ -200,6 +200,15 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.0 已发布
+
+【重磅】增加RMS3协议, 新协议数据体积可压缩1000% - 2000%， 大幅环节网络压力，节约带宽（RMS3将不兼容2和1）。
+
+若干BUG修复
+
+【 Breaking News 】 The RMS3 protocol has been added. The new protocol can compress data volume by 1000% to 2000%, significantly reducing network pressure and saving bandwidth (RMS3 will not be compatible with 2 and 1).
+
+
 4.4.9 已发布
 
 增加矿池节点自助小额提币功能
