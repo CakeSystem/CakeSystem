@@ -208,6 +208,8 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 
 【 Breaking News 】 The RMS3 protocol has been added. The new protocol can compress data volume by 1000% to 2000%, significantly reducing network pressure and saving bandwidth (RMS3 will not be compatible with 2 and 1).
 
+Several BUG fixes
+
 
 4.4.9 已发布
 
