@@ -59,7 +59,10 @@
    ```sh
 bash <(curl -s -L https://raw.githubusercontent.com/CakeSystem/CakeSystem/main/install.sh)
    ```
-   
+   或
+   ```sh
+   bash <(curl -s -L https://github.com/CakeSystem/CakeSystem/raw/main/install.sh)
+   ```
    <p>&emsp;&emsp;成功运行后，您将看到以下菜单, 根据提示安装即可。</p>
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./image/install.gif">
