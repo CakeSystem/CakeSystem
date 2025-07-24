@@ -212,6 +212,7 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 Fixed the BUG where the mining pool of L7 and L9 was disconnected but the machine was not, resulting in the inability to automatically restart. (If cakeminer3 was used, please update CakeMiner at the same time.)
 
 Add the function of the mining pool node template, and the templates will be updated in a hot manner successively in the future
+
 4.5.0 已发布
 
 【重磅】增加CakeMiner3协议, 新协议数据体积可压缩1000% - 2000%， 大幅环节网络压力，节约带宽（CakeMiner3将不兼容2和1）。
@@ -1103,7 +1104,7 @@ Updated IRON's new algorithm
 
 
 [CakeSystem.io]: https://github.com/CakeSystem/CakeSystem
-[CakeSystem.io-badge]: https://img.shields.io/badge/CakeSystem-v3.6.0-green?logo=Cake
+[CakeSystem.io-badge]: https://img.shields.io/badge/CakeSystem-v4.5.1-green?logo=Cake
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/CakeSystem/CakeSystem/releases
 [stars-url]: https://github.com/CakeSystem/CakeSystem/stargazers
