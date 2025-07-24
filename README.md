@@ -228,13 +228,13 @@ Several BUG fixes
 
 增加矿池节点自助小额提币功能
 (用户端自助提币请在用户端官网 - 设置 - 小额提币处进行自助提币, 新旧版的账单都可提币)
-(管理员端邮箱收益小额自助提币在Rust后台 - 矿池节点 - 自助提币处进行提币)
+(管理员端邮箱收益小额自助提币在CakeSystem后台 - 矿池节点 - 自助提币处进行提币)
 
 修复一处官网LTC费率显示不同步的问题
 
 Add the self-service small-amount withdrawal function for mining pool nodes
 For self-service withdrawals on the user end, please go to the "Settings" - "Small Withdrawals" section on the user end's official website. Both new and old versions of bills can be used for withdrawals.
-The small amount of self-withdrawal from the administrator's email can be made in the Rust backend - Mining Pool node - Self-withdrawal area.
+The small amount of self-withdrawal from the administrator's email can be made in the CakeSystem backend - Mining Pool node - Self-withdrawal area.
 
 Fixed an issue where the LTC rate display on the official website was not synchronized
 
@@ -263,7 +263,7 @@ BTC和LTC的抽水算力建议抽到自建节点上，对比传统池子收益�
 4.4.5 已发布
 
 开放矿池节点用户端API, API使用教程:
-https://rustminersystem.gitbook.io/rustminersystem/kuang-chi-jie-dian-yong-hu-duan-api/api-shi-yong-zhu-yi-shi-xiang-bi-du
+https://pool.p2pool.xyz/kuang-chi-jie-dian-yong-hu-duan-api
 
 修复部分场地使用特殊代理工具跑LTC跨抽至VIABTC产生无效的问题, 目前追风L9和福禄旧固件的LTC机型，在某些矿池下跑抽到VIABTC会高拒绝的问题，可以等longpool更新后这部分机型跨池抽至longpool
 
@@ -586,7 +586,7 @@ Updated IRON's new algorithm
 
    开放CakeMiner连接池模式 
 
-   [!!!注意：连接池模式需要对应接入的rust服务端版本 >= 3.8.0]
+   [!!!注意：连接池模式需要对应接入的CakeSystem服务端版本 >= 3.8.0]
 
    (
       如需使用CakeMiner公网连接数压缩功能, 请在CakeMiner客户端右上角设置里选择切换模式,
