@@ -203,6 +203,16 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.1 已发布
+
+修复L7、L9在某些网络环境下矿池掉线但机器没掉线导致无法自动重启的BUG（如果使用了RMS3, 请一并更新RMS）
+
+增加矿池节点模板功能，后续会陆续热更新模板
+
+Fixed the BUG where the mining pool of L7 and L9 was disconnected but the machine was not, resulting in the inability to automatically restart. (If RMS3 was used, please update RMS at the same time.)
+
+Add the function of the mining pool node template, and the templates will be updated in a hot manner successively in the future
+
 4.5.0 已发布
 
 【重磅】增加RMS3协议, 新协议数据体积可压缩1000% - 2000%， 大幅环节网络压力，节约带宽（RMS3将不兼容2和1）。
