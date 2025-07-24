@@ -205,21 +205,20 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ```
 4.5.1 已发布
 
-修复L7、L9在某些网络环境下矿池掉线但机器没掉线导致无法自动重启的BUG（如果使用了RMS3, 请一并更新RMS）
+修复L7、L9在某些网络环境下矿池掉线但机器没掉线导致无法自动重启的BUG（如果使用了cakeminer3, 请一并更新CakeMiner）
 
 增加矿池节点模板功能，后续会陆续热更新模板
 
-Fixed the BUG where the mining pool of L7 and L9 was disconnected but the machine was not, resulting in the inability to automatically restart. (If RMS3 was used, please update RMS at the same time.)
+Fixed the BUG where the mining pool of L7 and L9 was disconnected but the machine was not, resulting in the inability to automatically restart. (If cakeminer3 was used, please update CakeMiner at the same time.)
 
 Add the function of the mining pool node template, and the templates will be updated in a hot manner successively in the future
-
 4.5.0 已发布
 
-【重磅】增加RMS3协议, 新协议数据体积可压缩1000% - 2000%， 大幅环节网络压力，节约带宽（RMS3将不兼容2和1）。
+【重磅】增加CakeMiner3协议, 新协议数据体积可压缩1000% - 2000%， 大幅环节网络压力，节约带宽（CakeMiner3将不兼容2和1）。
 
 若干BUG修复
 
-【 Breaking News 】 The RMS3 protocol has been added. The new protocol can compress data volume by 1000% to 2000%, significantly reducing network pressure and saving bandwidth (RMS3 will not be compatible with 2 and 1).
+【 Breaking News 】 The CakeMiner3 protocol has been added. The new protocol can compress data volume by 1000% to 2000%, significantly reducing network pressure and saving bandwidth (CakeMiner3 will not be compatible with 2 and 1).
 
 Several BUG fixes
 
@@ -327,11 +326,11 @@ Added kernel information modification to Port configuration
 
 4.3.1 已发布
 
-【重要更新】修复RMS2端口一个潜在被攻击导致内存溢出的风险（如果您的RMS2端口被攻击者攻击，会导致软件瞬间重启）
+【重要更新】修复CakeMiner2端口一个潜在被攻击导致内存溢出的风险（如果您的CakeMiner2端口被攻击者攻击，会导致软件瞬间重启）
 
 4.3.0 已发布
 
-新增RMS2端口协议，配合新的RMS本地客户端，数据体积可压缩百分之30-50
+新增CakeMiner2端口协议，配合新的CakeMiner本地客户端，数据体积可压缩百分之30-50
 
 矿池节点开放所有币种起付额设置
 
@@ -356,10 +355,10 @@ Added kernel information modification to Port configuration
 优化了服务器流量上下行显示不准确的问题
 
 4.1.5 已发布
-修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题（RMS同时也更新了1.2.6版本， 使用RMS接入请更新客户端（1.2.6）以及服务端（4.1.5））
+修复CakeMiner相关问题，在通过CakeMiner接入大量机器时，跑一段时间服务器会无法接入矿机的问题（CakeMiner同时也更新了1.2.6版本， 使用CakeMiner接入请更新客户端（1.2.6）以及服务端（4.1.5））
 
-RMS 1.2.6已发布
-修复RMS相关问题，在通过RMS接入大量机器时，跑一段时间服务器会无法接入矿机的问题
+CakeMiner 1.2.6已发布
+修复CakeMiner相关问题，在通过CakeMiner接入大量机器时，跑一段时间服务器会无法接入矿机的问题
 
 
 4.1.4 已发布
@@ -388,12 +387,12 @@ RMS 1.2.6已发布
 修复4.1.0和4.1.1多数币种大面积出问题的BUG
 
 4.1.1 正式版已发布
-修复4.1.0RMS掉线问题
+修复4.1.0CakeMiner掉线问题
 
 4.1.0 正式版已发布
 增加兼容模式，在费率配置处配置，ALEO、追风L9请使用此模式
 增加ALEO（请开启兼容模式， 内核抽水请使用替换钱包功能拦截）
-修复了一个导致RMS压缩卡死的BUG
+修复了一个导致CakeMiner压缩卡死的BUG
 
 4.0.0已发布
 传统代理增加FB
@@ -582,14 +581,14 @@ Updated IRON's new algorithm
 
    优化了RVN算法相关逻辑
 
-   [RMS 1.0.0] RMS更新
+   [CakeMiner 1.0.0] CakeMiner更新
 
-   开放RMS连接池模式 
+   开放CakeMiner连接池模式 
 
    [!!!注意：连接池模式需要对应接入的rust服务端版本 >= 3.8.0]
 
    (
-      如需使用rms公网连接数压缩功能, 请在rms客户端右上角设置里选择切换模式,
+      如需使用CakeMiner公网连接数压缩功能, 请在CakeMiner客户端右上角设置里选择切换模式,
    然后选择连接池, 设置最大连接数。 
 
       以下为压缩率计算公式：
@@ -597,14 +596,14 @@ Updated IRON's new algorithm
       压缩率 = 接入矿机数量 / 最大连接数
 
       压缩率不要太高, 最大连接数设置的越大，硬件负载越小
-      通常3-5倍的压缩率即可, 根据rms所在设备以及服务器硬件情况自行斟酌
+      通常3-5倍的压缩率即可, 根据CakeMiner所在设备以及服务器硬件情况自行斟酌
 
-      此处压缩的是rms至服务器中间的公网tcp数量, 并非简单的矿机合并
+      此处压缩的是CakeMiner至服务器中间的公网tcp数量, 并非简单的矿机合并
    )
 
-   rms 增加密码配置, 右上角设置内可设置rms的访问账号密码
+   CakeMiner 增加密码配置, 右上角设置内可设置CakeMiner的访问账号密码
 
-   rms 增加手动模式, 可自己添加指定rms协议的服务器ip+端口
+   CakeMiner 增加手动模式, 可自己添加指定CakeMiner协议的服务器ip+端口
    
    
    3.7.3
@@ -663,7 +662,7 @@ Updated IRON's new algorithm
 
    稳定性提升 优化了极小概率矿池和矿机同时发生不稳定的情况下，导致连接数爆炸的问题
 
-   修复了一个关联rms的小bug，修复编辑Cake端口的时候导致rms矿机半天进不来的问题
+   修复了一个关联CakeMiner的小bug，修复编辑Cake端口的时候导致CakeMiner矿机半天进不来的问题
 
    增加了所有ip访问的日志
 
@@ -675,10 +674,10 @@ Updated IRON's new algorithm
 
    页面细节优化
 
-   [rms更新]
-   更新了rms的安装脚本，更广泛的兼容各种盒子
+   [CakeMiner更新]
+   更新了CakeMiner的安装脚本，更广泛的兼容各种盒子
 
-   rms更新，修复推送地址前如果有代理，如果Cake关闭但是请求没有响应时启动不起来的bug
+   CakeMiner更新，修复推送地址前如果有代理，如果Cake关闭但是请求没有响应时启动不起来的bug
 
    [币种更新]
    增加dnx以及mallob的代理转发
@@ -749,7 +748,7 @@ Updated IRON's new algorithm
    octa、etc等ethash算法币种, 不同协议的矿机币种在同一个端口工作，也可正常统计不同协议的算力了
 
    3.3.0
-   RMS客户端发布
+   CakeMiner客户端发布
 
    修复无法导入配置的bug
 
@@ -787,7 +786,7 @@ Updated IRON's new algorithm
 
    彻底解除跨池抽水限制
 
-   开放了RMS服务的配置
+   开放了CakeMiner服务的配置
 
    优化了抽水的精准度，现在大算力波动的机器也能抽到较为精准的比例了
 
