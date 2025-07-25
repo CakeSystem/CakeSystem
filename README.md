@@ -203,6 +203,16 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.2 已发布
+
+使用了一种更快的数据结构, 缓解RMS3大量机器涌入时CPU的占用
+
+修复旧版CakeMiner2一些网络情况下矿池掉线机器不掉线的BUG, 需搭配CakeMiner版本 >= 2.0.3
+
+A faster data structure was adopted to alleviate the CPU usage of cakeminer3 when a large number of machines flood in
+
+Fix the BUG of cakeminer2 where the mining pool goes offline but the machine does not. It needs to be paired with RMS version >= 2.0.3
+
 4.5.1 已发布
 
 修复L7、L9在某些网络环境下矿池掉线但机器没掉线导致无法自动重启的BUG（如果使用了cakeminer3, 请一并更新CakeMiner）
