@@ -205,10 +205,9 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ```
 4.5.3 已发布
 
-修复4.5.2带来的RMSBUG，机器进不来或是乱掉线
+修复4.5.2带来的CakeMinerBUG，机器进不来或是乱掉线
 
-Fixed the RMSBUG brought by 4.5.2, which prevented the machine from entering or caused random disconnections
-
+Fixed the CakeMinerBUG brought by 4.5.2, which prevented the machine from entering or caused random disconnections
 
 4.5.2 已发布
 
