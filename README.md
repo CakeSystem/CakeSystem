@@ -203,6 +203,13 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.3 已发布
+
+修复4.5.2带来的RMSBUG，机器进不来或是乱掉线
+
+Fixed the RMSBUG brought by 4.5.2, which prevented the machine from entering or caused random disconnections
+
+
 4.5.2 已发布
 
 使用了一种更快的数据结构, 缓解RMS3大量机器涌入时CPU的占用
