@@ -203,6 +203,12 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.4 已发布
+
+优化加密3 RMS3端口, 除BTC、LTC以外所有小币种的CPU占用带来的无效份额。
+
+Optimize the RMS3 port to reduce the invalid share of CPU usage for all small coins except BTC and LTC
+
 4.5.3 已发布
 
 修复4.5.2带来的CakeMinerBUG，机器进不来或是乱掉线
