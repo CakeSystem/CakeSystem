@@ -203,6 +203,24 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.5 已发布
+
+增加二步验证登录
+
+开放CMS3配置参数, 现在您可以在编辑或创建端口时，选择CMS3协议后可配置详细参数
+
+增加了了一个额外的端口用来推送CMS配置，在您的WEB端口加入防火墙导致无法使用推送地址时可用另一个推送专用端口的推送地址
+
+以及一些安全性的改动
+
+Add two-step verification login
+
+Open the CMS3 configuration parameters. Now you can configure detailed parameters after selecting the CMS3 protocol when editing or creating ports
+
+An additional port has been added for pushing CMS configurations. When the firewall on your WEB port makes it impossible to use the push address, you can use the push address of another dedicated push port
+
+And some changes to security
+
 4.5.4 已发布
 
 优化加密3 RMS3端口, 除BTC、LTC以外所有小币种的CPU占用带来的无效份额。
