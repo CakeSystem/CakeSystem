@@ -203,6 +203,18 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.6 已发布
+
+增加针对指定操作开启二步验证功能
+增加设置登录信息过期时间
+完整的语言包
+修复了一处当大量机器同时断开时，统计数据还留在原地的显示问题
+
+Add the two-step verification function for specified operations 
+Add the expiration time for setting login information 
+A complete language pack
+Fixed a display issue where statistics remained in place when a large number of machines were disconnected simultaneously
+
 4.5.5 已发布
 
 增加二步验证登录
