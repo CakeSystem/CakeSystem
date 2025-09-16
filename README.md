@@ -203,6 +203,16 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.7 已发布
+
+替换钱包功能现在可以使用*通配符了, 可以替换端口内所有钱包
+修复矿池节点官网首页图标资源加载失败的问题
+优化矿池节点官网样式
+
+The wallet replacement function can now use * wildcards to replace all wallets within the port
+Fixed the issue where the icon resources on the homepage of the mining pool node's official website failed to load
+Optimize the official website style of the mining pool nodes
+
 4.5.6 已发布
 
 增加针对指定操作开启二步验证功能
