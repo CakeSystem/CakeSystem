@@ -203,6 +203,15 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.8 已发布
+
+新的BTC矿池节点
+增加矿池APP通信配置
+
+New BTC mining pool nodes
+Increase the communication configuration of the mining pool APP
+
+
 4.5.7 已发布
 
 替换钱包功能现在可以使用*通配符了, 可以替换端口内所有钱包
