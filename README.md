@@ -203,6 +203,18 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.5.9 已发布
+
+修复卸载软件再安装软件后二步验证配置逻辑问题
+增加RMS自定义推送配置，现在RMS可以自定义推送地址内容了
+修复矿池节点子账号管理在某些情况下搜不出子账号的显示bug
+修复rust后台矿池节点内抽账单日期显示有时候会多一天的bug
+
+Fixed the issue with the two-step verification configuration logic after uninstalling and reinstalling the software
+The RMS custom push configuration has been added. Now, RMS can customize the content of push addresses
+Fixed the bug where sub-accounts could not be found in the account management of the mining pool's sub-accounts under certain circumstances
+Fixed the bug where the date for drawing bills in the rust background mining pool node sometimes showed an extra day
+
 4.5.8 已发布
 
 新的BTC矿池节点
