@@ -211,6 +211,8 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 新增Zstd Rms3算法，此算法对CPU更加友好
 增加Foundry矿池优化开关，如果需要跑Foundry池请打开Foundry优化。
 
+CMS 3.1.4已发布，新增Zstd压缩算法
+
 4.5.9 已发布
 
 修复卸载软件再安装软件后二步验证配置逻辑问题
