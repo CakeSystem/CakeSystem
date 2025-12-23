@@ -203,6 +203,14 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.0 已发布
+
+重要安全性更新，堵上了一处可能被爆破入侵的漏洞(但还是建议管理好web端口)
+移除了登录时的图形验证码
+优化了图表数据的统计机制，现在处理图表数据时大大降低带宽压力
+新增Zstd Rms3算法，此算法对CPU更加友好
+增加Foundry矿池优化开关，如果需要跑Foundry池请打开Foundry优化。
+
 4.5.9 已发布
 
 修复卸载软件再安装软件后二步验证配置逻辑问题
