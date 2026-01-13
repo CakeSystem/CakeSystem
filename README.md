@@ -203,6 +203,10 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.2 已发布
+
+【重要更新】修复近几个版本矿机以及端口上图表的份额会一直累加的bug，虽然只影响显示，但是时间久了内存会爆掉。
+
 4.6.1 已发布
 
 增加透明代理协议
