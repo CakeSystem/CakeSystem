@@ -203,6 +203,16 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.3 已发布
+
+优化了一些隐蔽的连接问题, 例如大量机器工作时编辑端口导致少量连接没有释放的bug
+掉线提醒增加smtp邮件推送
+矿池节点端口增加zsdt
+优化了流量统计 现在的流量统计完全精准
+增加了钱包白名单设置
+增加黑白名单钱包日志
+smtp掉线推送
+
 4.6.2 已发布
 
 【重要更新】修复近几个版本矿机以及端口上图表的份额会一直累加的bug，虽然只影响显示，但是时间久了内存会爆掉。
