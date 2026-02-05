@@ -203,6 +203,14 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.4 已发布
+
+【重要更新】更新了RMS3以及zsdt协议的连接池机制，大幅提升连接稳定性，减少掉线概率，以及正常网络环境下某些情况会胡乱掉线的BUG，此更新需要搭配RMS客户端版本>=3.1.8
+
+【请注意】旧版的RMS依旧可以接入新版的RUST，但是新的机制将不会生效。3.1.8最新版本RMS则无法接入旧版本RUST，请悉知。
+
+修复通过管理员渠道重置二步验证后，端口相关操作依旧需要二步验证的问题。
+
 4.6.3 已发布
 
 优化了一些隐蔽的连接问题, 例如大量机器工作时编辑端口导致少量连接没有释放的bug
