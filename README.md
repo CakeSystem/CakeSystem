@@ -203,6 +203,10 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.5 已发布
+
+修复 rms3 部分情况下接入会缓慢爆内存的问题
+
 4.6.4 已发布
 
 【重要更新】更新了RMS3以及zsdt协议的连接池机制，大幅提升连接稳定性，减少掉线概率，以及正常网络环境下某些情况会胡乱掉线的BUG，此更新需要搭配RMS客户端版本>=3.1.8
