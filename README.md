@@ -203,6 +203,11 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.6 已发布
+
+修复了 cms 有些情况下机器掉线无法接入的问题
+修复了最近几个版本因为 cake 底层升级带来的基础内存占用过高的问题
+
 4.6.5 已发布
 
 修复 rms3 部分情况下接入会缓慢爆内存的问题
