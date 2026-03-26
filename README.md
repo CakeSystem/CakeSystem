@@ -203,6 +203,10 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+4.6.7 已发布
+
+彻底解决某些情况下 RMS 掉线后矿机无法接入的问题
+
 4.6.6 已发布
 
 修复了 cms 有些情况下机器掉线无法接入的问题
