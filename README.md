@@ -203,6 +203,16 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+5.0.0 已发布
+
+全新界面改版
+新增 PRL
+新增观察者模式
+新增连接故障排查
+完善多国语言包
+增加浅色主题
+诸多细节 bug 修复
+
 4.6.7 已发布
 
 彻底解决某些情况下 RMS 掉线后矿机无法接入的问题
