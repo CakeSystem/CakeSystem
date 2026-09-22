@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="6.2.0"
+VERSION="6.3.0"
 DOWNLOAD_HOST="https://github.com/CakeSystem/CakeSystem/raw/main/linux"
 ORIGIN_EXEC="CakeSystem-${VERSION}"
 
