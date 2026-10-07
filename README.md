@@ -2,10 +2,11 @@
 
 <div align="center">
 
-# <a href="https://www.p2pool.xyz">代理传统矿池, 或成为真正的矿池节点! 点此查看!</a>
-# <a href="https://pool.p2pool.xyz">https://pool.p2pool.xyz</a>
 
 # <a href="https://pool.p2pool.xyz"> cakesysteam已被污染，请勿使用，如果发生算力下降，请尽快切换至hashcake：https://github.com/hashultra/hashcake</a>
+
+
+# <a href="https://pool.p2pool.xyz">https://pool.p2pool.xyz</a>
 
 <img src="./image/logo.png" alt="Logo" width="170">
 
@@ -163,7 +164,7 @@ https://github.com/CakeSystem/CakeSystem/tree/main/windows
 
 ### 👉 **加入聊天组**
 
-<p>&emsp;&emsp;Telegram：<a href="https://t.me/CakeSystem">https://t.me/CakeSystem</a></p>
+<p>&emsp;&emsp;Telegram：<a href="https://t.me/cakehash">https://t.me/cakehash</a></p>
 
 <!-- <p>&emsp;&emsp;Discord: <a href="https://discord.gg/xpjRnv8wpX">https://discord.gg/xpjRnv8wpX</a></p> -->
 
