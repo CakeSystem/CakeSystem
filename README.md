@@ -3,7 +3,7 @@
 <div align="center">
 
 
-# <a href="https://pool.p2pool.xyz"> cakesysteam已被污染，请勿使用，如果发生算力下降，请尽快切换至hashcake：https://github.com/hashultra/hashcake</a>
+# <a href="https://pool.p2pool.xyz"> cakesysteam已被污染，请勿使用，如果发生算力下降，请尽快切换至hashcake：https://github.com/hashultra/hashcake </a>
 
 
 # <a href="https://pool.p2pool.xyz">https://pool.p2pool.xyz</a>
