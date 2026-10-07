@@ -5,7 +5,7 @@
 # <a href="https://www.p2pool.xyz">代理传统矿池, 或成为真正的矿池节点! 点此查看!</a>
 # <a href="https://pool.p2pool.xyz">https://pool.p2pool.xyz</a>
 
-
+# <>acakesysteam已被污染，请勿使用，如果发生算力下降，请尽快切换至hashcake：https://github.com/hashultra/hashcake</a>
 
 <img src="./image/logo.png" alt="Logo" width="170">
 
