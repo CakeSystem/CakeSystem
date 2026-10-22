@@ -94,6 +94,7 @@ HashCake 按端口配置币种，同一后台可以同时跑多种算法。已�
 | CKB / SC / ALEO | Eaglesong / Sia / Aleo Stratum | 按币种独立适配的提交方言。 |
 | XBT | Bitcoin BLAKE2b（DATUM 网关） | 经 DATUM 网关接入，走 Sia 方言 Stratum。 |
 | PRL | Pearl Stratum | 76 字节头 + 256 位目标的对象参数方言。 |
+| QTC | f2pool login-first JSON | 独立费用连接、整任务切换；费用按工作量计算。 |
 
 其它币种或暂未适配的方言可以用 `currency: RELAY` 做纯中转：只转发矿机与矿池之间的原始 Stratum 字节流，不做任务改写、不抽水、不计算力。
 
@@ -102,12 +103,13 @@ HashCake 按端口配置币种，同一后台可以同时跑多种算法。已�
 - **ALEO**：目前只对**同一证明地址**的费用通道生效；跨证明地址切换、非空服务端 nonce 与未知方言仍请用 RELAY。
 - **ETC+ZIL 双挖**：按 RELAY 处理，不当作 ETC 启动。
 - **XBT**：必须经 DATUM 网关接入，矿池需提供 DATUM 入口。
+- **QTC（f2pool）**：费用通道走独立的上游连接并整任务下发；难度刻度尚未校准，算力显示只作趋势参考。
 - 其余币种的未知矿池方言同样走 RELAY，不静默按相似币种启动。
 
 ## 常见问题
 
 **HashCake 支持哪些币种？**
-原生支持 BTC、BCH、BSV、LTC、DOGE、DASH、ETC、KAS、ZEC、CKB、SC、ALEO、XBT、PRL；其它方言可用 RELAY 纯中转，只转发字节流。
+原生支持 BTC、BCH、BSV、LTC、DOGE、DASH、ETC、KAS、ZEC、CKB、SC、ALEO、XBT、PRL、QTC；其它方言可用 RELAY 纯中转，只转发字节流。
 
 **HashCake 和 CakeBox 是什么关系？**
 HashCake 是中心服务端代理，CakeBox 是部署在矿场的客户端，两者通过加密隧道连接。只在本机接入矿机时，单独部署 HashCake 即可；矿场与服务器跨地域时再加 CakeBox。
