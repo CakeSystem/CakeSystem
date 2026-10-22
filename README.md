@@ -1,12 +1,18 @@
 # HashCake
 
-**面向矿场与算力运营团队的一体化 Stratum 矿池代理与管理平台。**
+**自托管多币种 Stratum 矿池代理（minerproxy）：矿机接入、矿池中转、费用策略和算力监控集中到一个 Web 后台。**
 
-## HashCake 是什么
-
-HashCake 部署在矿机与上游矿池之间，统一处理矿机接入、矿池连接、费用策略和运行监控。通过浏览器即可集中管理代理端口、矿机与矿池线路，并实时查看算力、份额、延迟、告警和服务器状态。
+HashCake 部署在矿机与上游矿池之间，一个进程就能同时代理 BTC、LTC、KAS、ZEC、ETC、BCH、CKB、SC、XBT、PRL 等币种的 Stratum 连接，并提供实时算力、份额、延迟与服务器状态面板。适合需要多矿池线路冗余、按端口配置费用策略、或想把多地矿场统一接入管理的场景。
 
 对于不同地区的矿场，可配合 [CakeBox 客户端](https://github.com/hashultra/cakebox) 建立加密隧道，将矿机安全接入 HashCake，降低跨地域接入与线路维护的复杂度。
+
+## 适用场景
+
+- **矿场自建矿池代理 / 矿池中转**：多台矿机走统一入口，按矿池线路分流，主池异常时自动切到备池。
+- **按端口配置费用策略（矿池抽水）**：可为每个端口设置费用矿池、钱包与分配比例，并持续对比目标比例与实际比例。
+- **多币种统一管理**：不同算法、不同币种的代理端口共用一个后台，不必为每个币种单独维护一套代理。
+- **异地矿场接入**：远端矿场用 CakeBox 建加密隧道回中心服务器，公网只暴露隧道入口。
+- **算力运营监控**：实时查看在线与掉线设备、接受与拒绝份额、矿池延迟和服务器资源。
 
 ## 核心能力
 
@@ -72,3 +78,39 @@ sudo bash install-hashcake.sh update
 需要切换已发布版本时，选择“17. 安装 / 切换指定版本”，仍执行下载校验与配置预检。手动防火墙及系统连接限制工具分别位于“18. 关闭整机防火墙”和“19. 调整系统连接限制”，执行前显示影响并要求确认。
 
 需要自动化时可显式使用 `bash install-hashcake.sh update` 等命令；完整命令见 `bash install-hashcake.sh --help`。
+
+## 支持的币种与端口
+
+HashCake 按端口配置币种，同一后台可以同时跑多种算法。已内置原生协议适配的币种：
+
+| 币种 | 算法 / 协议 | 说明 |
+| --- | --- | --- |
+| BTC / BCH / BSV | SHA256d Stratum | 最常用的比特币系代理，支持主备矿池与 vardiff。 |
+| LTC / DOGE | Scrypt Stratum | 按 scrypt 难度换算算力，可用 f2pool 等 scrypt 矿池。 |
+| DASH | X11 Stratum | 独立难度换算，避免算力显示失真。 |
+| ETC | Ethash / Etchash | 走 eth_submitLogin / getWork 方言。 |
+| KAS | Kaspa HeavyHash | 支持两参数 notify 与带 nonce 的提交。 |
+| ZEC | Equihash Stratum | 使用 mining.set_target 下发目标。 |
+| CKB / SC / ALEO | Eaglesong / Sia / Aleo Stratum | 按币种独立适配的提交方言。 |
+| XBT | Bitcoin BLAKE2b（DATUM 网关） | 经 DATUM 网关接入，走 Sia 方言 Stratum。 |
+| PRL | Pearl Stratum | 76 字节头 + 256 位目标的对象参数方言。 |
+
+其它币种或暂未适配的方言可以用 `currency: RELAY` 做纯中转：只转发矿机与矿池之间的原始 Stratum 字节流，不做任务改写、不抽水、不计算力。
+
+## 常见问题
+
+**HashCake 支持哪些币种？**
+原生支持 BTC、BCH、BSV、LTC、DOGE、DASH、ETC、KAS、ZEC、CKB、SC、ALEO、XBT、PRL；其它方言可用 RELAY 纯中转，只转发字节流。
+
+**HashCake 和 CakeBox 是什么关系？**
+HashCake 是中心服务端代理，CakeBox 是部署在矿场的客户端，两者通过加密隧道连接。只在本机接入矿机时，单独部署 HashCake 即可；矿场与服务器跨地域时再加 CakeBox。
+
+**可以在国内服务器上安装吗？**
+可以。README 的「国内服务器」入口使用国内镜像获取安装脚本和二进制，安装器仍会用 SHA256SUMS 校验每个下载文件。
+
+**升级会不会丢配置和账号？**
+不会。更新保留 Web 端口、安全访问路径、账号、令牌、配置与状态目录；新版本启动失败时安装器自动回滚到旧二进制、旧服务文件和原有防火墙状态。
+
+**Windows 能用吗？**
+可以用。Windows amd64 程序与 Linux 使用同一正式版本，从 Releases 页面下载对应版本的 `.exe`；Windows 服务与后台功能与 Linux 一致。
+
